@@ -1,0 +1,18 @@
+.Search input {
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .CurrentCityButton {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .SearchField {
+    font-size: 17px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  

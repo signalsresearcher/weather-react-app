@@ -1,17 +1,13 @@
 import React from "react";
-import Weather from './Weather.js';
+import Search from "./Search";
+import City from "./City";
+import "./App.css";
 
-import './App.css';
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello from React</h1>
-        <Weather city="Paris" />
-      </header>
+      <Search />
+      <City />
     </div>
   );
 }
-
-export default App;

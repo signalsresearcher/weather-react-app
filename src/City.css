@@ -1,0 +1,50 @@
+.City h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  
+  .City h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .City h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .Weather span {
+    text-align: center;
+    font-size: 40px;
+    bottom: 35px;
+    margin: auto;
+    display: block;
+  }
+  
+  .Weather img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Temperature {
+    text-align: center;
+    font-size: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .TempUnits {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
