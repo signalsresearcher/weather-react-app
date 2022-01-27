@@ -10,6 +10,7 @@ ReactDOM.render(
     <style>
       @import
       url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
     </style>
     <App />
   </>,

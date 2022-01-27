@@ -10,3 +10,15 @@
   max-width: 800px;
   border-radius: 20px;
 }
+
+footer {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-family: 'IM Fell DW Pica', serif;
+}
+
+footer a {
+  margin-left: .3rem; /* 4px */
+  margin-right: .3rem; /* 4px */
+}
