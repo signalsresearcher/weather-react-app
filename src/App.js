@@ -6,6 +6,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
+      <div className="container">
       <Search />
       <City />
       <footer>
@@ -26,6 +27,7 @@ export default function App() {
             hosted on Netlify
           </a>
         </footer>
+    </div>
     </div>
   );
 }
