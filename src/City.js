@@ -1,19 +1,21 @@
 import React from "react";
-import "./City.css";
+import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 
-export default function City() {
-  return (
+export default function City(props) {
+    return (
     <div className="City">
-      <h1>Quito, Ecuador</h1>
-      <h2>Saturday, January 22, 2:00 PM</h2>
-      <h3>Precipitation:</h3>
-      <h3>Wind:</h3>
-      <p className="Weather">
-        <img src="weather-icon.png" alt="weather icon" width="100" height="100" />
-        <span>Windy</span>
-      </p>
-      <span className="Temperature">18</span>
-      <span className="TempUnits">˚C |˚F</span>
-    </div>
-  );
+    <h1>{props.data.city}</h1>
+    <h2><FormattedDate date={props.data.date} /> </h2>
+
+    <WeatherTemperature celsius={props.data.temperature} />
+      <WeatherIcon code={props.data.icon} alt={props.data.description}/>
+    
+      <h3>{props.data.description}</h3>
+      <h4>Wind: {props.data.wind} km/h</h4>
+      <h4>Humidity: {props.data.humidity} %</h4>
+    
+  </div>
+    );
 }

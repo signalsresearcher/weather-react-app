@@ -3,11 +3,12 @@
     margin-left: 10px;
     margin-right: 10px;
   }
-  
-  .CurrentCityButton {
-    font-size: 17px;
-    margin-left: 10px;
-    margin-right: 10px;
+
+  .searchbar {
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    padding-top: 20px;
   }
   
   .SearchField {
@@ -15,4 +16,63 @@
     margin-left: 5px;
     margin-right: 5px;
   }
+  .City h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    padding-top: 20px;
+  }
   
+  .City h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  
+  .Weathericon span {
+    text-align: center;
+    font-size: 40px;
+    bottom: 35px;
+    margin: auto;
+    display: block;
+  }
+  
+  .Weathericon img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Temperature {
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .TempUnits {
+    text-align: center;
+    font-size: 22px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   
+  h4 {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'IM Fell DW Pica', serif;
+  }
+
+  h3 {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
