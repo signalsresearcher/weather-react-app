@@ -1,5 +1,5 @@
 .App {
-  background: linear-gradient(-55deg, #ee7752, #fc466b, #c471ed, #23d5ab);
+  background: linear-gradient(rgba(247,253,166,1), rgba(128,255,221,1), rgba(255,128,249,1) 25%);
   font-family: "IM Fell DW Pica SC", serif;
   background-size: 400% 400%;
   display: block;
@@ -10,6 +10,8 @@
   max-width: 800px;
   border-radius: 20px;
 }
+
+
 
 footer {
   display: block;
