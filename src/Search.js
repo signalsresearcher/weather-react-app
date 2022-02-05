@@ -3,7 +3,6 @@ import axios from "axios";
 import "./Search.css";
 import City from "./City";
 import WeatherForecast from "./WeatherForecast";
-import WeatherIcon from "./WeatherIcon";
 
 export default function Search(props) {
   
